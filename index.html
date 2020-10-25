@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный блог</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:wght@700&display=swap" rel="preload" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Spectral+SC:wght@700&display=swap" rel="preload" as="font">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="page-header_logo">
+            <img src="img/Logo.png" alt="Логотип">
+        </div>
+        <div class="page-header_list-menu">
+            <ul class="list-menu">
+                <li>
+                    <a href="#articles">Статьи</a>
+                </li>
+                <li>
+                    <a href="#aboutme">Обо мне</a>
+                </li>
+                <li>
+                    <a href="#portfolio">Портфолио</a>
+                </li>
+                <li>
+                    <a href="#writeme">Написать мне</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        
+        <article  id="articles"  class="all-articles">
+            <div class="header-all-articles">
+                <div class="name_header-all-articles">
+                    <p>Все статьи</p>
+                </div>
+                <div class="btn_header-all-articles">
+                    <select class="btn-list" size="1">
+                        <option selected disabled>Выбрать тему</option>
+                        <option>Город</option>
+                        <option>Книги</option>
+                        <option>Путешествия</option>
+                        <option>Рецепты</option>
+                        <option>Фотографии</option>
+                       </select>
+                </div>
+            </div>
+
+            <div class="all-articles-photo-galery">
+                <div class="all-articles-photo-galery-top">
+                   <div class="all-articles-photo-galery_img">
+                    <img src="img/image 1.png" alt="Путешествие в Берлин в августе">
+                    <p class="all-articles-photo-galery_img-name">Путешествие в Берлин в августе</p>
+                    <p class="all-articles-photo-galery_img-description">Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
+                    <div class="all-articles-photo-galery_img-date-tag">
+                        <p class="all-articles-photo-galery_img-tag">Теги: путешествия</p>
+                        <p class="all-articles-photo-galery_img-date">29.09.2020</p>
+                    </div>
+                </div>
+
+                <div class="all-articles-photo-galery_img">
+                    <img src="img/image 2.png" alt="Где выпить колдбрю в Москве">
+                    <p class="all-articles-photo-galery_img-name">Где выпить колдбрю в Москве</p>
+                    <p class="all-articles-photo-galery_img-description">Собрала для вас список любимых кофеен,
+                        где подают лучший летний напиток.</p>
+                    <div class="all-articles-photo-galery_img-date-tag">
+                        <p class="all-articles-photo-galery_img-tag">Теги: город</p>
+                        <p class="all-articles-photo-galery_img-date">24.07.2020</p>
+                    </div>
+                </div>
+
+                <div class="all-articles-photo-galery_img">
+                    <img src="img/image 3.png" alt="Прочитано: книжные рекомендации">
+                    <p class="all-articles-photo-galery_img-name">Прочитано: книжные рекомендации</p>
+                    <p class="all-articles-photo-galery_img-description">Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
+                    <div class="all-articles-photo-galery_img-date-tag">
+                        <p class="all-articles-photo-galery_img-tag">Теги: книги</p>
+                        <p class="all-articles-photo-galery_img-date">15.07.2020</p>
+                    </div>
+                </div> 
+                </div>
+                
+                <div class="all-articles-photo-galery-bottom">
+                    <div class="all-articles-photo-galery_img4">
+                    <p class="all-articles-photo-galery_img-name4">Снимки на плёнку</p>
+                    <p class="all-articles-photo-galery_img-description4">Поделилась с вами весенними фотографиями,<br> 
+                        и секретами удачных снимков.</p>
+                    <div class="all-articles-photo-galery_img-date-tag4">
+                        <p class="all-articles-photo-galery_img-tag4">Теги: фотографии</p>
+                        <p class="all-articles-photo-galery_img-date4">29.06.2020</p>
+                    </div>
+                </div>
+
+                <div class="all-articles-photo-galery_img5">
+                    <p class="all-articles-photo-galery_img-name5">Домашний чизкейк </p>
+                    <p class="all-articles-photo-galery_img-description5">Что может быть лучше чизкейка с сезонными<br>
+                        ягодами? Только домашний чизкейк!</p>
+                    <div class="all-articles-photo-galery_img-date-tag5">
+                        <p class="all-articles-photo-galery_img-tag5">Теги: рецепты</p>
+                        <p class="all-articles-photo-galery_img-date5">24.06.2020</p>
+                    </div>
+                </div>
+                </div>
+
+                
+            </div>
+
+           <!--  <div class="btn"> <button class="btn_show-more">Показать ещё</button></div>
+        </article>
+
+
+        <article id="aboutme" class="about-me">
+            <div class="name_about-me">
+                <p>Обо мне</p>
+            </div>
+
+            <div class="content_about-me">
+                <div class="content-photo_about-me">
+                    <img src="img/image 6.png" alt="Обо мне">
+                </div>
+
+                <div class="content-line"><img src="img/Line 13.png" alt=""></div>
+                
+                <div class="content-description_about-me">
+                    <div class="content-descriprion_about-me_tale">
+                        <p>Всем привет! Меня зовут Аня, и это мой личный блог. Здесь ты найдёшь рассказы о моих путешествиях, снимки на плёнку, рецепты, обзоры на книги. В общем, тексты о том, что мне инетресно.</p><br>
+                        
+                        <p>Я работаю копирайтером, поэтому мой блоге — это ещё и моё портфолио. Ниже размещены несколько моих лучших рабочих текстов. Буду рада новым сотрудничествам!</p><br>
+                        
+                        <p> Если вы хотите написать мне — это можно сделать в соцсетях или через форму. Всегда приятно услышать обратную связь от читателей и познакомиться поближе.</p><br>
+                        
+                        <p>Приятного чтения!</p>
+                    </div>
+                    <blockquote>Я верю, что каждый раз пробуя новое, выходящее за зону моего комфорта, я действительно узнаю настояющую     себя.</blockquote>
+                </div>
+            </div>
+        </article>
+
+        <section id="portfolio">
+            <div class="portfolio">
+                <div class="name_about-me">
+                    <p>Портфолио</p>
+                </div>
+
+                <div class="portfolio-img">
+                    <div class="portfolio-img_item">
+                        <img src="img/image 7.png" alt="Блог HTML Academy">
+                        <div class="portfolio-img_item-txt">
+                        <p class="portfolio-img_item-name">Блог HTML Academy</p>
+                        <p class="portfolio-img_item-name2">«Как учиться продуктивно»</p>
+                        <p class="portfolio-img_item-description">Про основные методы обучения, которые помогут быстро и надолго запомнить информацию.</p>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="portfolio-img_item">
+                        <img src="img/image 8.png" alt="Журнал «LNK»">
+                        <p class="portfolio-img_item-name">Журнал «LNK»</p>
+                        <p class="portfolio-img_item-name2">«Зачем поцели нужны человеку? И какие они бывают»</p>
+                        <p class="portfolio-img_item-description">Поцелуи — повсеместная ежедневная практика. Но зачем люди целуются? Какие смысли вкладывают в этот ритуал? И где корни этой практики?</p>
+                    </div>
+    
+                    <div class="portfolio-img_item">
+                        <img src="img/image 9.png" alt="Журнал «Т — Л»">
+                        <p class="portfolio-img_item-name">Журнал «Т — Л»</p>
+                        <p class="portfolio-img_item-name2">«Советы по эффективной удалённой работе»</p>
+                        <p class="portfolio-img_item-description">Поделилась лайфхаками, которые помогают мне работать продуктивно из дома.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn"> <button class="btn_show-more">Показать ещё</button></div>
+            </div>
+
+        </section>
+
+        <section>
+            
+                
+                <div class="name_about-me">
+                        <p>Написать мне</p>
+                    </div>
+                    
+                    <form action="">
+                <div class="writeme">
+                    
+
+
+
+
+
+                    <div class="btn"> <button class="btn_show-more">Отправить</button></div>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="page-footer">
+
+    </footer> -->
+    
+</body>
+</html>
